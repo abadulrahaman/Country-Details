@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.text_box {
+    padding: 50px 0px;
+    font-size: 30px;
+
+}
+
+.country {
+    margin-bottom: 40px;
+}
+
+.inner_text {
+    display: flex;
+    gap: 100px;
+}
+
+p {
+    margin: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+input {
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+}
